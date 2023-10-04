@@ -1,0 +1,106 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style pour le conteneur principal du CV */
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre du CV */
+h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style pour les sections du CV */
+.section {
+    margin-bottom: 30px;
+}
+
+/* Style pour les titres de section */
+.section h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les éléments de liste dans le CV */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Style pour les éléments de la liste de compétences */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+}
+
+.skills-item {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-left: 10px;
+}
+
+/* Style pour les liens */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Style pour l'image de profil */
+.profile-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+/* Style pour les coordonnées de contact */
+.contact-info {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Style pour les informations personnelles */
+.personal-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style pour la section de l'expérience professionnelle */
+.experience {
+    margin-bottom: 20px;
+}
+
+/* Style pour la section de l'éducation */
+.education {
+    margin-bottom: 20px;
+}
+
+/* Style pour la section des langues */
+.languages {
+    margin-bottom: 20px;
+}
+
+/* Style pour la section des centres d'intérêt */
+.interests {
+    margin-bottom: 20px;
+}
