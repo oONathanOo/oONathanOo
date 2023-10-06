@@ -75,3 +75,14 @@ a {
     text-align: center;
     color: #666;
 }
+
+.cv-link {
+    text-align: center; /* Centrer le lien horizontalement */
+    margin-top: 20px; /* Marge en haut du lien */
+}
+
+.cv-link a {
+    text-decoration: none; /* Supprimer la décoration du lien (soulignement par défaut) */
+    color: #007BFF; /* Couleur du lien */
+    font-weight: bold; /* Texte en gras */
+}
