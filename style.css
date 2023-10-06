@@ -89,6 +89,7 @@ a {
 .table {
     border-collapse: collapse; /* Fusionner les bordures de cellules */
     width: 100%;
+    margin: 0 auto;
 }
 
 .table th, .custom-table td {
