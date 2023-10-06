@@ -90,6 +90,7 @@ a {
     border-collapse: collapse; /* Fusionner les bordures de cellules */
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .table th, .custom-table td {
