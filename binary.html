@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Convertisseur Binaire ⇔ Décimal</title>
+    <script type="text/javascript">
+        function binaireVersDecimal() {
+            var binaire = document.getElementById("binaire").value;
+            var decimal = parseInt(binaire, 2);
+            document.getElementById("resultat-decimal").innerHTML = "Décimal : " + decimal;
+        }
+
+        function decimalVersBinaire() {
+            var decimal = parseInt(document.getElementById("decimal").value);
+            var binaire = decimal.toString(2);
+            document.getElementById("resultat-binaire").innerHTML = "Binaire : " + binaire;
+        }
+    </script>
+</head>
+<body>
+    <h1>Convertisseur Binaire ⇔ Décimal</h1>
+    <div>
+        <label for="binaire">Binaire:</label>
+        <input type="text" id="binaire" onkeyup="binaireVersDecimal()">
+        <p id="resultat-decimal">Décimal : </p>
+    </div>
+    <div>
+        <label for="decimal">Décimal:</label>
+        <input type="text" id="decimal" onkeyup="decimalVersBinaire()">
+        <p id="resultat-binaire">Binaire : </p>
+    </div>
+</body>
+</html>
