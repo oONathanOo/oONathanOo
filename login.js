@@ -1,4 +1,4 @@
- const correctPassword = "motdepasse";
+ const correctPassword = "apple";
 
         const loginButton = document.getElementById("loginButton");
 
